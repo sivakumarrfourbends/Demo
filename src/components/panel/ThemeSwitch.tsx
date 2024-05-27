@@ -2,21 +2,18 @@
 
 import { FaSun, FaMoon } from "react-icons/fa";
 import { useTheme } from "next-themes";
+import { useEffect } from "react";
 
 const ThemeSwitch = () => {
   const { theme, setTheme } = useTheme();
 
-    const toggleTheme = () => {
-      setTheme(theme === "light" ? "dark" : "light");
-    };
+//  ;   const toggleTheme = () => {
+//       setTheme(theme === "light" ? "dark" : "light");
+//     }
+useEffect(() => {
+  setTheme("dark")
+},[])
 
-
-  return (
-    <div className="theme">
-      <button onClick={toggleTheme}>
-        {theme === "light" ? <FaSun /> : <FaMoon />}
-      </button>
-    </div>
-  );
+  return null
 };
  export default ThemeSwitch;

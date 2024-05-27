@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 
 const About: NextPage = () => {
   return (
@@ -15,15 +16,10 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    I am Sivakumar <span>Front End Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                  With three years of experience in React development, I have worked on various domains such as Application Tracking Systems, insurance, and LMS. In 2021, I was at SSIT Software Development, and since June 2022, I've been with Foubends. At Foubends, I work on the learning platform product named Qubits.
                   </p>
                 </div>
               </div>
@@ -32,57 +28,42 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>https://demo-indol-eight.vercel.app</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>sivakumar2012000@gmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>B.E(Computer Science & Engg)</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+91 7397544377</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
+                        City : <span>Madurai</span>
                       </p>
                     </div>
                   </div>
                   <div className="row">
                     <div className="buttons padd-15">
-                      <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
-                        className="btn"
-                      >
-                        Download CV
-                      </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
-                      </a>
+                      <a href="/sivakumarupdatedresume.pdf" target="_blank" rel="noopener noreferrer" className="btn"  download>
+      Download CV
+    </a>
+                      {/* <Link className="btn" href='/SivakumarUpdatedresume.pdf'>Download cv</Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="skills padd-15">
                   <div className="row">
-                    <div className="skill-item padd-15">
+                    {/* <div className="skill-item padd-15">
                       <h5>Html5</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "80%" }} />
@@ -93,18 +74,53 @@ const About: NextPage = () => {
                       <h5>Css3</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Javascript</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
+                        <div className="skill-percent">70%</div>
+                      </div>
+                    </div> */}
+                    {/* <div className="skill-item padd-15">
+                      <h5>Bootstrap</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="skill-percent">70%</div>
+                      </div>
+                    </div> */}
+                    <div className="skill-item padd-15">
+                      <h5>React JS</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
+                      <h5>Next JS</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="skill-percent">70%</div>
+                      </div>
+                    </div>
+                      <div className="skill-item padd-15">
+                      <h5>Typescript</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="skill-percent">70%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Tailwindcss</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="skill-percent">70%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Jest React Testing Library</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "70%" }} />
                         <div className="skill-percent">70%</div>
@@ -123,15 +139,16 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2017 to 2021
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            B.E(Computer Science & Engg)
                           </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
+                          
+I completed my B.E. in Computer Science Engineering from KGiSL Institute of Technology,
+ Coimbatore, with a 7.1 CGPA. I cleared all subjects in a single attempt, 
+ with no backlogs across all eight semesters.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -139,15 +156,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2016 to 2017
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                            Higher Secondary
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                          In 2017, I completed my Higher Secondary examination with an impressive score of 87%. This success further solidified my commitment to academic excellence.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -155,15 +170,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
+                            <i className="fa fa-calendar" /> 2014 to 2015
                           </h6>
                           <h4 className="timeline-title">
                             Secondary School Certificate
                           </h4>
                           <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
+                          In 2015, I completed my SSLC examination with a remarkable score of 95%. 
+                          This achievement laid a strong foundation for my academic journey.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -177,16 +191,28 @@ const About: NextPage = () => {
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
                         {/* Timeline Item */}
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2022 to Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Fourbends</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                           
+At Fourbends since June 2022, 
+I have managed diverse projects including insurance and an Application Tracking System (ATS).
+ For the past two years, I have focused on Qubits, a learning management system. In Qubits, users create and manage schools, 
+ teachers, and students, with teachers customizing courses, chapters, and topics, and assigning quizes and assignments. 
+
+                          </p>
+                          <br/>
+                          <p  className="timeline-text">
+                          Currently, we are developing an updated version set to release in August, utilizing React and Next.js for the frontend and Nest.js
+  for the backend. In the previous version, we used Next.js for the frontend and Moodle for the backend, integrating React builds 
+  into Moodle. Notable features include student learning of Python and SQL directly from the client side using Pyodide and SQLWasm, 
+  and integration of the ChatGPT API for providing feedback on code mistakes.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -194,26 +220,11 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> May 2021 to May 2022
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">SSIT Software Development</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                          I worked at SSIT Software Development from May 2021 to May 2022, focusing on ASP.NET applications in the real estate domain while learning React in parallel. I completed several React projects for college students, mentoring them and providing project support. At SSIT, we specialized in delivering college projects and technical solutions.
                           </p>
                         </div>
                         {/* Timeline Item end */}

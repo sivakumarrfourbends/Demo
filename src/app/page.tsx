@@ -7,26 +7,20 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <img
-              src="/imgs/alsiam.png"
+              src="/imgs/Sivakumar.jpeg"
               alt="Al Siam Profile"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>R Sivakumar</h1>
+            <p>I am a skilled frontend developer with expertise in React.js, TypeScript, Next.js, and Tailwind CSS. I specialize in writing efficient and robust test cases using Jest. My experience includes building dynamic, responsive web applications and ensuring high-quality code through comprehensive testing. I thrive in collaborative environments and am passionate about creating seamless user experiences.</p>
             <div className="social-links">
-              <a href="https://twitter.com/" target="_blank">
-                <i className="fa fa-twitter" />
-              </a>
-              <a href="https://facebook.com/" target="_blank">
-                <i className="fa fa-facebook" />
-              </a>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/sivakumarrfourbends" target="_blank">
                 <i className="fa fa-github" />
               </a>
-              <a href="https://instagram.com/" target="_blank">
+              <a href="https://www.instagram.com/sivakumar_bagavathi/" target="_blank">
                 <i className="fa fa-instagram" />
               </a>
-              <a href="https://linkedin.com/in/" target="_blank">
+              <a href="http://linkedin.com/in/siva-kumar-85431b212" target="_blank">
                 <i className="fa fa-linkedin" />
               </a>
             </div>
