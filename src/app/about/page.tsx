@@ -19,7 +19,7 @@ const About: NextPage = () => {
                     I am Sivakumar <span>Front End Developer</span>
                   </h2>
                   <p>
-                  With three years of experience in React development, I have worked on various domains such as Application Tracking Systems, insurance, and LMS. In 2021, I was at SSIT Software Development, and since June 2022, I've been with Foubends. At Foubends, I work on the learning platform product named Qubits.
+                  With three years of experience in React development, I have worked on various domains such as Application Tracking Systems, insurance, and LMS. In 2021, I was at SSIT Software Development, and since June 2022, I have been with Foubends. At Foubends, I work on the learning platform product named Qubits.
                   </p>
                 </div>
               </div>
